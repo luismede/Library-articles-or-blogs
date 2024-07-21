@@ -100,10 +100,9 @@ https://github.com/user-attachments/assets/9f05dcc1-d156-491b-a226-fa38dc920d3f
 ![Captura de tela 2024-07-21 144449](https://github.com/user-attachments/assets/2c45fa17-c39b-47ce-9c6b-78e92d6786fa)
 ![Captura de tela 2024-07-21 144506](https://github.com/user-attachments/assets/053f6283-bbe3-4d84-b0eb-555a2a700af2)
 
+---
 
-
-
-## Contributing with me
+# Contributing with me
 If you are interested in the project and think you can contribute in some way to correcting or improving something. this is my contact:
 
 E-mail: luishenrique23h@hotmail.com
