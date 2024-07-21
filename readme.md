@@ -1,8 +1,9 @@
-### Library Online
+# Library Online
+
 <img src="./readme/overview-project.jpg"></img>
 
 
-### About this project
+# About this project
 The website ideia is: "How about bringing together multiple articles, blogs, news, troubleshooting and more on one site?"
 
 **Note:** The website code is unlimited! I chose articles as the main topic. But if you wish, you can change it to your theme.
@@ -15,7 +16,7 @@ The site was not hosted on any website. But for testing I started the server on 
 
 ---
 
-#### Website operation 👇
+# Website operation 👇
 **Obs:** I don't know how to make good diagrams, I TRIED!
 If you use a light theme color, the dark diagram is on the readme page.
 
@@ -23,12 +24,12 @@ If you use a light theme color, the dark diagram is on the readme page.
 
 
 
-#### Future implementations
+# Future implementations
 - Comment system
 - Search by filter
 
 ---
-## Getting started
+# Getting started
 **Prerequisites**
 To use this project I used npm and firebase.
 You must enter your API KEY and information in **firebase-init.js**
@@ -67,7 +68,7 @@ $ npm start
 
 ---
 
-### Contributing with me
+## Contributing with me
 If you are interested in the project and think you can contribute in some way to correcting or improving something. this is my contact:
 
 E-mail: luishenrique23h@hotmail.com
