@@ -72,16 +72,25 @@ $ npm start
 #### Fist Authentication
 Add a new provider for login
 
+**ADD Provider EMAIL & PASSWORD**
 <img src="readme/Captura de tela 2024-07-21 135720.png">
 
-<img src="readme/Captura de tela 2024-07-21 135743.png">
-<img src="readme/Captura de tela 2024-07-21 135812.png">
+---
+
+**ADD new user**
 <img src="readme/Captura de tela 2024-07-21 135911.png">
+
+
+https://github.com/user-attachments/assets/835ef28e-6723-40cf-8428-ff0d9f7efbad
+
+
 <img src="readme/Captura de tela 2024-07-21 135941.png">
 
 ---
 
-**Register**
+### Register
+https://github.com/user-attachments/assets/9f05dcc1-d156-491b-a226-fa38dc920d3f
+
 
 
 <img src="readme/Captura de tela 2024-07-21 140420.png">
