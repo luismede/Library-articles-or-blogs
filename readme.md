@@ -71,7 +71,9 @@ $ npm start
 If you are interested in the project and think you can contribute in some way to correcting or improving something. this is my contact:
 
 E-mail: luishenrique23h@hotmail.com
+
 **And of course, feel free to submit your PRs**
+
 Thanks
 
 ### License
