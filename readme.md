@@ -65,8 +65,25 @@ const firebaseConfig = {
 ```
 $ npm start
 ```
+---
+
+# Configuring Firebase
+#### Fist Authentication
+Add a new provider for login
+
+<img src="readme/Captura de tela 2024-07-21 135720.png">
+
+<img src="readme/Captura de tela 2024-07-21 135743.png">
+<img src="readme/Captura de tela 2024-07-21 135812.png">
+<img src="readme/Captura de tela 2024-07-21 135911.png">
+<img src="readme/Captura de tela 2024-07-21 135941.png">
 
 ---
+
+**Register**
+
+
+<img src="readme/Captura de tela 2024-07-21 140420.png">
 
 ## Contributing with me
 If you are interested in the project and think you can contribute in some way to correcting or improving something. this is my contact:
