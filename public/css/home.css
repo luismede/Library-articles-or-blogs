@@ -210,4 +210,7 @@ button {
     margin-top: 50px;
   }
 
+  .btn-read-card {
+    padding: .8em 40%;
+  }
 }
