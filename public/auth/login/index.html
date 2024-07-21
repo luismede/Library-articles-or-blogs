@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I have account! - Login</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="centralize">
+    <div>
+        <a href="/index.html"><img  src="../../img/image.png" alt="Logo" style="width: 85px; margin-bottom: 40px; margin-left: 35%;"></a>
+    <form>
+        <div>
+            <div style="margin-bottom: 10px;"><label>E-mail</label></div>
+            <input type="email" style="color: white;" name="email" id="email" onchange="onChangeEmail()" placeholder="your@email.com"/>
+            <div class="error" id="email-required-error">You need to enter an email *</div>
+            <div class="error" id="email-invalid-error">This email does not exist *</div>
+        </div>
+        <div>
+            <div style="margin-bottom: 10px;"><label>Password</label></div>
+            <input type="password" id="password" style="color: white;" name="password" onchange="onChangePassword()" placeholder="Password"/>
+            <div class="error" id="password-required-error">You need to enter an password *</div>
+        </div>
+        <div>
+            <button type="button" class="clear" id="recovery-password-button" disabled>Forgot password?</button>
+        </div>
+        <div>
+            <button type="button" class="solid" id="login-button" style="font-size: 15px;" onclick="login()" disabled>Sign In</button>
+        </div>
+        <div>
+            <button type="button" class="clear-with-text" onclick="register()"><p>New to website?</p>&nbsp   Create an account</button>
+        </div>
+    </form>
+</div>
+</body>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/10.12.3/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth-compat.js"></script>
+
+<script src="/firebase-init.js"></script>
+<script src="./login.js"></script>
+<script src="../validation.js"></script>
+<script src="../loading.js"></script>
+
+</html>

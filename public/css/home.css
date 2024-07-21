@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+html, body {
+    background: #0D1117;
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #763EC6 #0D1117;
+    overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    width: 100%;
+}
+
+.logo {
+    width: 60px;
+    padding-top: 15px;
+}
+
+.ul a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-left: 25px;
+    transition: 200ms;
+
+}
+
+.ul a:hover {
+  font-weight: 500;
+}
+
+.ul a:active {
+  opacity: 0.8;
+}
+
+.clear {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 25px;
+    border: 1.9px solid;
+    border-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-duration: 0ms;
+  }
+
+.clear p {
+    margin-top: 5%;
+    margin-left: 10px;
+}
+
+.clear {
+    background-color: transparent;
+}
+
+  .clear:hover {
+    border: 2.5px solid;
+  }
+
+.header {
+  margin-top: 10px;
+  background-color: #191d2271;
+  width: 100%;
+  height: 330px;
+  display: flex;
+
+}
+
+.content h1 {
+  padding-top: 50px;
+  margin-left: 80px;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2.8rem;
+  z-index: 1;
+}
+
+.content p {
+
+
+  margin-top: 10px;
+  font-size: 1.3rem;
+  position: relative;
+}
+.content button {
+  margin-top: 25px;
+  padding: .9em 10em 1em;
+  border: none;
+  border-radius: 10px;
+  background-color: #763EC6;
+  color: #ffffff;
+  transition: 500ms;
+  opacity: 1;
+
+}
+
+
+.content button:hover{
+  opacity: 0.8;
+}
+
+.content button:active {
+  opacity: 0.7;
+}
+
+.headerimage {
+  width: 350px;
+  height: auto;
+  margin-top: -230px;
+  margin-left: 120%;
+
+}
+
+.artigo-area {
+  width: 100%;
+  padding: 50px 5vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 80px;
+}
+
+.artigo-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.artigo-title {
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3rem;
+}
+
+.artigo-overview {
+  margin: 10px 0 20px;
+  line-height: 20px;
+  font-family: sans-serif;
+  color: #ffffffa6;
+  font-size: .9rem;
+}
+
+.btn-read-card {
+  border: none;
+  border-radius: 10px;
+  padding: .8em 6em;
+  background-color: #763EC6;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 550px) {
+  .ul a {
+    margin-left: 10px;
+  }
+
+  .clear {
+    padding: .8rem;
+  }
+
+  .navbar p {
+    display: none;
+  }
+
+  .headerimage {
+    display: none;
+  }
+
+  .content h1 {
+    font-size: 2.3rem;
+    margin-left: 10%;
+  }
+
+  .content p {
+    font-size: 1.0rem;
+  }
+
+  .content button {
+    padding: 1em 5em 1em;
+
+  }
+
+  .artigo-area {
+    display: inline-block;
+
+  }
+
+  .artigo-image {
+    margin-top: 50px;
+  }
+
+}

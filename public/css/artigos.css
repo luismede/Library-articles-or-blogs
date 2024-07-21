@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+.artigos, .article {
+    position: relative;
+    height: fit-content;
+    padding-bottom: 0;
+}
+
+.artigos {
+    margin-left: 12%;
+    margin-top: 50px;
+}
+
+.article, .title {
+    min-height: auto;
+    height: fit-content;
+    padding: 0 10px;
+    white-space: normal;
+}
+
+.published {
+    margin: 20px 0 60px;
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #fff;
+    opacity: 0.5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.article * {
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.article-image {
+    max-width: 100%;
+    max-height: 300px;
+    display: block;
+    object-fit: contain;
+}
+
+.sub-heading{
+    padding: 0 5vw;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 80px;
+}
+.footer{
+    background: transparent;
+    box-sizing: border-box;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    margin-top: 50%;
+  }

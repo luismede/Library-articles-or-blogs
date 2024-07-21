@@ -1,0 +1,129 @@
+.banner {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background: #191d2280;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-upload-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid;
+    padding: .5em .5em .2em;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: exclusion;
+}
+
+.banner-upload-btn:hover {
+    border: 3px solid;
+}
+
+#arrow_back {
+    color: #Fff;
+    font-size: 25px;
+    margin: 30px 45px;
+    border: 2px solid;
+    border-radius: 50px;
+    padding: .3em .3em .3em;
+    mix-blend-mode: exclusion;
+
+}
+
+
+.artigo {
+    width: 70vw;
+    min-width: 400px;
+    display: block;
+    margin: auto;
+    padding: 50px 0;
+
+}
+
+textarea::-webkit-scrollbar{
+    width: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+.title, .article {
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    outline: none;
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+    resize: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title::placeholder,
+.article::placeholder {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+.article::placeholder {
+    text-decoration: none;
+}
+
+.article {
+    height: 500px;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-bottom: 100px;
+    white-space: pre-wrap;
+}
+
+.artigo-options {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #151b22;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 20px;
+
+}
+
+.publish-btn {
+    background-color: #763EC6;
+    color: #fff;
+    border-radius: 5px;
+    padding: .9rem 2rem .8rem;
+}
+
+.upload-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: .5rem 1rem .8rem;
+    font-family: system-ui;
+    color: #fff;
+    font-size: 14px;
+}

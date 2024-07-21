@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Writing my article - FREE</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/editor.css">
+    </head>
+    <body>
+        <div class="banner">
+            <input type="file" accept="image/*" id="banner-upload" hidden>
+            <label for="banner-upload" class="banner-upload-btn">
+                <img src="./img/upload.svg" alt="upload" >
+            </label>
+            <a href="./home.html">
+            <span class="material-symbols-outlined" id="arrow_back">
+                arrow_back
+                </span>
+            </a>
+
+        </div>
+
+        <div class="artigo">
+            <textarea type="text" class="title" placeholder="Enter a title... ✍️"></textarea>
+            <textarea type="text" class="article" placeholder="Start your article here!..." id="textarea-article"></textarea>
+            <textarea name="autor" placeholder="Autor Name"></textarea>
+        </div>
+
+        <div class="artigo-options">
+            <button class="btn publish-btn">Publish!</button>
+            <input type="file" accept="image/*" id="image-upload" hidden>
+            <label for="image-upload" class="btn upload-btn">Upload Image</label>
+        </div>
+
+        <!-- SCRIPTS -->
+        <script src="https://www.gstatic.com/firebasejs/10.12.3/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-storage-compat.js"></script>
+        <script src="../../firebase-init.js"></script>
+        <script src="js/editor.js"></script>
+        <script src="./auth-guard.js"></script>
+
+    </body>
+</html>
