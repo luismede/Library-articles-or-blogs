@@ -12,6 +12,7 @@ The site was not hosted on any hosting. But for testing I started the server on 
 
 #### Important observations:
 **1** - I did not program the password recovery option, although it appears in the login option. 😉
+
 **2** - The image upload is not connected to firebase storage, so the images are being uploaded on your machine in the uploads/ folder. 🗂️
 
 ---
