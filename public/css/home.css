@@ -93,8 +93,6 @@ button {
 }
 
 .content p {
-
-
   margin-top: 10px;
   font-size: 1.3rem;
   position: relative;
@@ -132,7 +130,7 @@ button {
   width: 100%;
   padding: 50px 5vw;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 80px;
 }
 
@@ -170,7 +168,19 @@ button {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 550px) {
+
+.title-articles-area {
+  margin-top: 50px;
+  margin-left: 80px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2.3rem;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ffffff1a;
+}
+
+@media only screen and (max-width: 800px) {
   .ul a {
     margin-left: 10px;
   }
@@ -192,6 +202,7 @@ button {
     margin-left: 10%;
   }
 
+
   .content p {
     font-size: 1.0rem;
   }
@@ -201,13 +212,14 @@ button {
 
   }
 
-  .artigo-area {
-    display: inline-block;
-
+  .title-articles-area {
+    font-size: 2.0rem;
+    margin-left: 10%;
   }
 
-  .artigo-image {
-    margin-top: 50px;
+  .artigo-area {
+    grid-template-columns: repeat(1, 1fr);
+
   }
 
   .btn-read-card {
