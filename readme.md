@@ -8,7 +8,7 @@ The website ideia is: "How about bringing together multiple articles, blogs, new
 
 **Note:** The website code is unlimited! I chose articles as the main topic. But if you wish, you can change it to your theme.
 
-The site was not hosted on any website. But for testing I started the server on my localhost and started ngrok to have a public link.
+The site was not hosted on any hosting. But for testing I started the server on my localhost and started ngrok to have a public link.
 
 #### Important observations:
 **1** - I did not program the password recovery option, although it appears in the login option. 😉
