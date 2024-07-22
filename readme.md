@@ -106,6 +106,7 @@ https://github.com/user-attachments/assets/9f05dcc1-d156-491b-a226-fa38dc920d3f
 If you are interested in the project and think you can contribute in some way to correcting or improving something. this is my contact:
 
 E-mail: luishenrique23h@hotmail.com
+Discord: _luismede(Preferably)
 
 **And of course, feel free to submit your PRs**
 
