@@ -1,5 +1,6 @@
 const artigoTitleField = document.querySelector('.title');
 const articleFeild = document.querySelector('.article');
+const autorField = document.querySelector('.autor');
 
 // BANNER
 const bannerImage = document.querySelector('#banner-upload');
@@ -44,15 +45,16 @@ const uploadImage = (uploadFile, uploadType) => {
 }
 
 const addImage = (imagepath, alt) => {
-    let curPos = articleFeild.selectionStart;
+    let curPos = articleFeild.selectionStart && autorFeild.selectionStart;
     let textToInsert = `\r![${alt}](${imagepath})\r`;
     articleFeild.value = articleFeild.value.slice(0, curPos) + textToInsert + articleFeild.value.slice(curPos);
+    autorField.value = autorField.value.slice(0, curPos) + textToInsert + autorField.value.slice(curPos);
 }
 
 let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 publishBtn.addEventListener('click', () => {
-    if (articleFeild.value.length && artigoTitleField.value.length){
+    if (articleFeild.value.length && artigoTitleField.value.length && autorField.value.length){
         let letters = 'abcdefghijklmnopqrstuvwxyz';
         let artigoTitle = artigoTitleField.value.split(" ", "?", ":", ",", ".", "#", "/", "%", '""', "''",
             "!", "$", "*", "+", "-", "@",
@@ -68,6 +70,7 @@ publishBtn.addEventListener('click', () => {
         db.collection("artigos").doc(docName).set({
             title: artigoTitleField.value,
             article: articleFeild.value,
+            autor: autorField.value,
             bannerImage: bannerPath,
             publishedAt: `${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`
         })

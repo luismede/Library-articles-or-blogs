@@ -15,14 +15,18 @@ const setupBlog = (data) => {
     const banner = document.querySelector('.banner');
     const blogTitle = document.querySelector('.title');
     const titleTag = document.querySelector('title');
+    const autor = document.querySelector('.autor');
     const publish = document.querySelector('.published');
 
         banner.style.backgroundImage = `url(${data.bannerImage})`;
         titleTag.innerHTML += blogTitle.innerHTML = data.title;
+        autor.innerHTML += autor.innerHTML = data.autor;
         publish.innerHTML += data.publishedAt;
 
     const article = document.querySelector('.article');
         addArticle(article, data.article);
+    
+
 }
 
 const addArticle = (ele, data) => {

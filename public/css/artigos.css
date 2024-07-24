@@ -20,7 +20,7 @@
     white-space: normal;
 }
 
-.published {
+.published, .autor {
     margin: 20px 0 60px;
     padding: 0 10px;
     text-transform: capitalize;
@@ -30,6 +30,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
 }
+
 
 .article * {
     margin: 20px 0;
