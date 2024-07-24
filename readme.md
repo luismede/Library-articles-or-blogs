@@ -1,4 +1,4 @@
-# Library Online
+# 📖 Library Online
 
 ![Overview project](https://github.com/user-attachments/assets/a6876e91-5f21-4f58-8fc8-1c18e73a73b6)
 
@@ -68,10 +68,9 @@ $ npm start
 ```
 ---
 
-# Configuring Firebase
+# ⚙️ Configuring Firebase
 
 ## Fist Authentication
-Add a new provider for login
 
 **ADD Provider EMAIL & PASSWORD**
 <img src="readme/Captura de tela 2024-07-21 135720.png">
@@ -105,7 +104,7 @@ https://github.com/user-attachments/assets/9f05dcc1-d156-491b-a226-fa38dc920d3f
 # Contributing with me
 If you are interested in the project and think you can contribute in some way to correcting or improving something. this is my contact:
 
-E-mail: luishenrique23h@hotmail.com
+📬 E-mail: luishenrique23h@hotmail.com </br>
 Discord: _luismede(Preferably)
 
 **And of course, feel free to submit your PRs**
