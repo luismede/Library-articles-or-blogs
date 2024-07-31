@@ -18,39 +18,32 @@
     <div>
         <header class="navbar">
             <a href="/"><img class="logo" src="img/image.png" alt="logo"></a>
+
             <div class="ul">
-            <a href="home.html">Home</a>
-            <a href="editor.html">Editor</a>
+                <a href="home.html">Home</a>
+                <a href="editor.html">Editor</a>
             </div>
-            <button type="button" class="clear" onclick="logout()">
-            <span class="material-symbols-outlined">logout</span>
-            <p>Log Out</p></button>
+
+            <button type="button" class="clear" onclick="logout()"><span class="material-symbols-outlined">logout</span><p>Log Out</p></button>
         </header>
     </div>
     <header class="header">
-
         <div class="content">
-
-            <h1><span class="big" style="z-index:auto">Start writing your article now!</span>
+            <h1>
+                <span class="big" style="z-index:auto">Start writing your article now!</span>
                 <p class="small" style="  opacity: 0.5; font-family: Roboto; font-weight: 300">It's completely free and simple</p>
                 <a href="editor.html"><button><p style="font-size: 15px; margin-top: 0px;">Write now</p></button></a>
-
             </h1>
+
             <div>
                 <img class="headerimage" src="./img/3d-old-background.png" style="z-index: 4;" alt="Teacher Icon" >
             </div>
-
         </div>
-
     </header>
 
     <!-- Artigos Area -->
     <h1 class="title-articles-area">Recent posts</h1>
-    <section class="artigo-area">
-
-    </section>
-
-
+    <section class="artigo-area"></section>
 </body>
 
 <script src="https://www.gstatic.com/firebasejs/10.12.3/firebase-app-compat.js"></script>
@@ -61,6 +54,4 @@
 <script src="./logout.js"></script>
 <script src="./js/home.js"></script>
 <script src="./auth-guard.js"></script>
-
-
 </html>

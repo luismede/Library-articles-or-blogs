@@ -39,7 +39,6 @@
 
 }
 
-
 .artigo {
     width: 70vw;
     min-width: 400px;
@@ -84,7 +83,6 @@ textarea::-webkit-scrollbar-thumb {
 .autor::placeholder {
     opacity: 0.5;
 }
-
 
 .title::placeholder,
 .article::placeholder {

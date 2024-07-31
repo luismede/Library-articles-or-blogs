@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
 body {
     background: #0D1117;
 }
@@ -98,6 +98,6 @@ label {
 
 @keyframes is-rotating {
     to {
-      transform: rotate(1turn);
+    transform: rotate(1turn);
     }
-  }
+}
